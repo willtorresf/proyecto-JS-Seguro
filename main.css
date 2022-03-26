@@ -1,0 +1,102 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.inline li{
+    display: inline;
+    text-decoration: none;
+    padding: 1em;
+
+}
+.main-foto{
+    background-color: #000;
+    background-image: url(public/index-main.jpg);
+    background-size: 50%;
+    background-position:right;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    padding-left: 1em;
+}
+.main-foto h1{
+    padding: 0;
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.main-foto h2{
+    padding: 0;
+    color: #fff;
+    margin: 0;
+}
+
+.main-foto p{
+    padding-top: 0.5em;
+    color: #fff;
+    margin: 0;
+}
+.title-btn{
+    margin-top: 1em;
+}
+.flex-center{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-form div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-form{
+    padding: 1em;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+}
+footer p {
+    text-align: center;
+}
+#dom1{
+    text-align: center;
+    border: solid 2px #000;
+}
+#dom2{
+    text-align: center;
+    border: solid 2px rgb(153, 3, 3);
+}
+.flex-column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

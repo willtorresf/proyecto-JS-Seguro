@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Simulador de Un seguro para Autos</title>
+</head>
+<body>
+<header>
+    <nav class="flex">
+        <div >
+            <a href="index.html">
+                Seguros Araucária
+            </a>
+        </div>
+        <div>
+            <ul class="inline">
+                <li><a href="index.html">Inicio</a></li>
+                <li>Mi cuenta</li>
+                <li>Contacto</li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="main-foto">
+        <h1>Seguros Araucária</h1>
+        <h2>Está buscando un seguro de auto o moto?</h2>
+        <p>En seguros Araucária, usted cotiza, compara y contrata!</p>
+        <p>Reunimos las ofertas de las mayores aseguradoras del mercado en un único lugar.</p> 
+        <p>Haga una simulación en segundos!</p>
+        
+        <button class="title-btn">Simular</button>
+    </section>
+    <section>
+        <div id="principal" class="flex-column"></div>
+    </section>
+    <section class="flex-center flex-column" >
+        <button id="carrito">Carrito</button>
+        <div id="divCarrito" class="flex-column">
+            <div class="flex-column divCart">
+                <h2>Carrito</h2>
+                <h3>Su carrito está vacío</h3>
+            </div>
+        </div>
+        <div id="finalizarCompra">
+            <button id="btnFinish">Finalizar compra</button>
+        </div>
+    </section>
+    <section class="flex-center">
+        <div class="flex-column">
+            <button id="apiClima">Api del clima</button>
+            <div id="apiToggle">
+                <form>
+                    <label>Ingrese el nombre de una ciudad (en inglés) para ver su clima:</label>
+                    <input id ="clima" type="text">
+                    <button id="btnClima">Verificar</button>
+                    <button id="btnClima2">Borrar</button>
+                </form>
+            </div>
+            <div id="tiempo"></div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>William Torres 2022</p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
